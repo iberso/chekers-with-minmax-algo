@@ -1,0 +1,110 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boardBase{
+    display: flex;
+    flex-wrap: wrap;
+    height: 480px;
+    width: 480px; 
+    background-color:white;
+    border: solid black 2pt; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.93);
+}
+
+.boardBase div{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.boardBase div img{
+    vertical-align: baseline;
+    width: 80%;
+    margin-top: 4pt;
+}
+
+.color{
+    background-color:#ffdf61;
+}
+
+.selected{
+    background-color: #a8a8a8fb;
+}
+
+.valid-move{
+    background-color: #b1ff3b;
+}
+
+.validmove{
+    background-color: #b1ff3b;
+}
+
+.eat-move{
+    background-color: #ff3939;
+}
+
+.king{
+    
+}
+
+.container{
+    margin-left:26px;
+}
+
+.container-item{
+    width: 480px;
+    display: inline-grid;
+    /* border: solid black 2pt; */
+}
+
+.center-text{
+    text-align: center; 
+}
+
+.container-item span{
+    font-size: 20pt; 
+}
+
+.clone{
+    display: flex;
+    flex-wrap: wrap;
+    height: 480px;
+    width: 480px; 
+    background-color:white;
+    border: solid black 2pt;
+}
+
+.clone div{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.clone div img{
+    vertical-align: baseline;
+    width: 80%;
+    margin-top: 4pt;
+}
+
+ul {
+    margin: auto;
+    height:480px ;
+    width: 300px;
+    overflow:hidden;
+    overflow-y:scroll;
+    border: solid black 2pt;
+    
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.93);
+
+}
+
+li {
+    padding: 10px;
+    list-style-type:decimal;
+    border-bottom: 1px solid rgb(148, 148, 148);
+}
