@@ -5,4 +5,4 @@ minimax algorithm bot for final project in artificial intelligence subject.
 
 # Demo
 
-https://iberso.github.io/chekers-with-minmax-algo/
+[Play Online](https://iberso.github.io/chekers-with-minmax-algo/)
